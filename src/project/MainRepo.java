@@ -148,7 +148,7 @@ public class MainRepo {
                 }
             }
         }
-        System.out.println(" ");
+        System.out.println("");
         System.out.println("------assignment2------");
         for (int i = 0; i < l.getAllStudents().size(); i++) {
             for (int j = 0; j < l.getAllStudents().get(i).getAssignments().size(); j++) {
@@ -157,7 +157,7 @@ public class MainRepo {
                 }
             }
         }
-        System.out.println(" ");
+        System.out.println("");
         System.out.println("------assignment3------");
         for (int i = 0; i < l.getAllStudents().size(); i++) {
             for (int j = 0; j < l.getAllStudents().get(i).getAssignments().size(); j++) {

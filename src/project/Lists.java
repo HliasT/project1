@@ -47,11 +47,11 @@ public class Lists {
     }
      
     public void getAll(){
-        Assignment assignment1 = new Assignment("project1","desc",6,10,new Date("10/10/2020"));
-        Assignment assignment2 = new Assignment("project2","desc",6,10,new Date("10/10/2020"));
-        Assignment assignment3 = new Assignment("assignment1","desc",5,10,new Date("10/10/2020"));
-        Assignment assignment4 = new Assignment("assignment2","desc",5,10,new Date("10/10/2020"));
-        Assignment assignment5 = new Assignment("assignment3","desc",5,10,new Date("10/10/2020"));
+        Assignment assignment1 = new Assignment("project1","Java Project",6,10,new Date("1/10/2020"));
+        Assignment assignment2 = new Assignment("project2","Front End Project",6,10,new Date("10/10/2020"));
+        Assignment assignment3 = new Assignment("assignment1","java assignment",5,10,new Date("1/11/2020"));
+        Assignment assignment4 = new Assignment("assignment2","css assignment",5,10,new Date("30/11/2020"));
+        Assignment assignment5 = new Assignment("assignment3","sql assignment",5,10,new Date("15/12/2020"));
         
         ala.add(assignment1);
         ala.add(assignment2);
@@ -72,10 +72,10 @@ public class Lists {
        allTr.add(tr04);
        allTr.add(tr05);
         
-       Course CB10a = new Course("CB10a","Java","fullTime",new Date("10/10/2020"),new Date("10/10/2020"),ala,new ArrayList<>(Arrays.asList(allTr.get(0))));
-       Course CB10b = new Course("CB10b","Java","partTime",new Date("10/10/2020"),new Date("10/10/2020"),new ArrayList<>(Arrays.asList(ala.get(0),ala.get(1),ala.get(2))),new ArrayList<>(Arrays.asList(allTr.get(1),allTr.get(3))));
-       Course CB10c = new Course("CB10c","C#","fullTime",new Date("10/10/2020"),new Date("10/10/2020"),ala,new ArrayList<>(Arrays.asList(allTr.get(2))));
-       Course CB10d = new Course("CB10d","C#","partTime",new Date("10/10/2020"),new Date("10/10/2020"),new ArrayList<>(Arrays.asList(ala.get(0),ala.get(4),ala.get(1))),new ArrayList<>(Arrays.asList(allTr.get(3),allTr.get(1))));
+       Course CB10a = new Course("CB10a","Java","fullTime",new Date("1/10/2020"),new Date("01/02/2021"),ala,new ArrayList<>(Arrays.asList(allTr.get(0))));
+       Course CB10b = new Course("CB10b","Java","partTime",new Date("1/10/2020"),new Date("01/05/2021"),new ArrayList<>(Arrays.asList(ala.get(0),ala.get(1),ala.get(2))),new ArrayList<>(Arrays.asList(allTr.get(1),allTr.get(3))));
+       Course CB10c = new Course("CB10c","C#","fullTime",new Date("1/10/2020"),new Date("01/02/2021"),ala,new ArrayList<>(Arrays.asList(allTr.get(2))));
+       Course CB10d = new Course("CB10d","C#","partTime",new Date("1/10/2020"),new Date("01/05/2021"),new ArrayList<>(Arrays.asList(ala.get(0),ala.get(4),ala.get(1))),new ArrayList<>(Arrays.asList(allTr.get(3),allTr.get(1))));
        
        allCourses.add(CB10a);
        allCourses.add(CB10b);
